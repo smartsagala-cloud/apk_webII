@@ -15,7 +15,7 @@ class HomeController extends Controller
 
     public function profil()
     {
-        $nama = "Smart Sabastian Sagala";
+        $nama = "Smart S Sagala";
         $npm = "238160053";
 
         return view('profil', compact('nama', 'npm'));
